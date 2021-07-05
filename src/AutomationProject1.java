@@ -42,7 +42,6 @@ public class AutomationProject1 {
         driver.findElement(By.id("loginPassword")).sendKeys("Testing12345" + Keys.ENTER);
         Thread.sleep(2000);
         System.out.println(driver.getPageSource().contains("You Might Also Like"));
-        // 12. Log out once again and verify that you are logged out.
         driver.findElement(By.id("nameFirstAndLast")).click();
         driver.quit();
 
