@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import static org.junit.Assert.assertTrue;
 
 
-public class AutomationProject1 {
+public class AutomationProjectOne {
 
     public static void main(String[] args) throws InterruptedException {
 
